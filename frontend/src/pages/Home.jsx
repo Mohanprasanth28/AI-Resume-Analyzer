@@ -288,9 +288,9 @@ export default function Home() {
                   }`}
                 >
                   <Sparkles className="w-3.5 h-3.5" />
-                  Analyze Single Resume
+                  Analyze Resume
                 </button>
-                <button
+                {/* <button
                   type="button"
                   onClick={() => {
                     setActiveTab('compare');
@@ -304,7 +304,7 @@ export default function Home() {
                 >
                   <FileSpreadsheet className="w-3.5 h-3.5" />
                   Compare Mode (Dual Resumes)
-                </button>
+                </button> */}
               </div>
 
               {activeTab === 'analyze' ? (

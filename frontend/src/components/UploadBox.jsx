@@ -72,7 +72,7 @@ export default function UploadBox({
           <Upload className="w-4 h-4" />
           PDF Document
         </button>
-        <button
+        {/* <button
           type="button"
           onClick={() => handleTabChange('text')}
           className={`flex-1 py-3.5 px-4 text-sm font-semibold flex items-center justify-center gap-2 border-b-2 transition-all ${
@@ -83,7 +83,7 @@ export default function UploadBox({
         >
           <FileText className="w-4 h-4" />
           Paste Plain Text
-        </button>
+        </button> */}
       </div>
 
       <div className="p-6">
